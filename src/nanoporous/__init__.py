@@ -9,12 +9,12 @@ from .statistics import DiffusionEstimate, bootstrap_diffusivity, estimate_diffu
 
 __version__ = "0.1.0"
 __all__ = [
+    "DiffusionEstimate",
+    "PeriodicDiskGeometry",
     "SimulationConfig",
     "SimulationResult",
-    "simulate",
-    "PeriodicDiskGeometry",
-    "random_disk_geometry",
-    "DiffusionEstimate",
     "bootstrap_diffusivity",
     "estimate_diffusivity",
+    "random_disk_geometry",
+    "simulate",
 ]
